@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: linear-gradient(to bottom, #FCFBF4, #020c1b);
+  min-height: 100vh;
+  color: #d1d5db;
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #CDEBC5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,8 +28,58 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #CDEBC5;
 }
+
+/* PROFILE PICTURE MOVEMENT */
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1.5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.float-animate {
+  animation: float 3s ease-in-out infinite;
+}
+
+.float-animate:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+}
+
+/* EXPERIENCE CARD MOVEMENT */
+.experience-card {
+  background-color: #182D09;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.experience-card img {
+  transition: transform 0.3s ease;
+}
+
+.experience-card:hover img {
+  transform: scale(1.05);
+}
+
 
 @keyframes App-logo-spin {
   from {
