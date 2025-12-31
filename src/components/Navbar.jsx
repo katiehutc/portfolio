@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed w-full h-20 flex justify-between items-center px-4 bg-[#B39EB5] text-[#3C4324] font-thick transition-transform duration-300 ${
+      className={`fixed w-full h-20 flex justify-between items-center px-4 bg-[#182D09] text-[#FDFBD4] font-thick text-thick transition-transform duration-300 ${
         showNav ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
