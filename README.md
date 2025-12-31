@@ -2,6 +2,7 @@
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, experience, and provides a way to contact me. Built with **React** and **Tailwind CSS**, it features a responsive design and smooth scrolling for an interactive user experience.
 
+** View my website here: ** [katherinehutchinson.com]{katherinehutchinson.com}
 ---
 
 ## Features
