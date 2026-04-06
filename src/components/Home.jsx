@@ -1,8 +1,6 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi'; // Arrow icon
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; // LinkedIn & GitHub icons
 import me from '../assets/circle-prof.png';
-import { Link } from "react-scroll";
 
 const Home = () => {
   return (
