@@ -5,8 +5,6 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import './App.css';
-import AOS from "aos";  
-
 
 function App() { 
   return (
