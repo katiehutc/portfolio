@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; // LinkedIn & GitHub icons
-import me from '../assets/profile-circle.png';
+import me from '../assets/newprofile.png';
 
 const Home = () => {
   return (
