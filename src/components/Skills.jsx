@@ -7,15 +7,15 @@ const skills = [
   { name: 'Java', icon: <FaJava size={40} /> },
   { name: 'Python', icon: <FaPython size={40} /> },
   { name: 'C', icon: <SiC size={40} /> },
-  { name: 'Unity C#', icon: <SiUnity size={40} /> },
-  { name: 'SQL', icon: <SiSqlite size={40} /> },
+  { name: 'C#', icon: <SiUnity size={40} /> },
+  { name: 'SQL/Postgres', icon: <SiSqlite size={40} /> },
   { name: 'JavaScript', icon: <SiJavascript size={40} /> },
   { name: 'Kafka', icon: <SiApachekafka size={40} /> },
   { name: 'Prefect', icon: <SiPrefect size={40} /> },
   { name: 'DuckDB', icon: <SiDuckdb size={40} /> },
   { name: 'React', icon: <FaReact size={40} /> },
   { name: 'Airflow', icon: <SiApacheairflow size={40} /> },
-  { name: 'BERTopic', icon: <CiChat1 size={40} /> }
+  { name: 'ASP.NET', icon: <CiChat1 size={40} /> }
 ];
 
 const Skills = () => {
