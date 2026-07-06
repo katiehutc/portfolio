@@ -7,7 +7,7 @@ const About = () => {
     <div
       name="about"
       id="about"
-      className="w-full h-screen bg-[#0a192f] text-gray-300"
+      className="w-full h-screen bg-[#F0E5D8] text-gray-300"
     >
       {/*Content container with cyan background*/}
       <div className="flex flex-col justify-center items-center w-full h-full">

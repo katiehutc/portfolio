@@ -17,7 +17,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="w-full min-h-screen bg-[#FDFBD4] text-[#182D09]"
+      className="w-full min-h-screen bg-[#2E3047] text-[#182D09]"
     >
 
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -43,11 +43,11 @@ const Experience = () => {
 
             {/* Text */}
             <div className="flex-1">
-              <h3 className="text-3xl font-bold mb-4 text-[#FDFBD4]">
+              <h3 className="text-3xl font-bold mb-4 text-[#F0E5D8]">
                 Software Engineer Intern
               </h3>
 
-              <ul className="list-disc list-inside text-[#FDFBD4] text-lg space-y-2">
+              <ul className="list-disc list-inside text-[#F0E5D8] text-lg space-y-2">
                 <li>Implemented backend features and bug fixes for an ASP.NET web application serving a state public education system with 90,000+ users. </li>
                 <li>Developed PostgreSQL database migrations with Entity Framework Core to support schema and data updates. </li>
                 <li>Created unit and integration tests for backend features and database changes.</li>
@@ -66,11 +66,11 @@ const Experience = () => {
 
             {/* Text */}
             <div className="flex-1">
-              <h3 className="text-3xl font-bold mb-4 text-[#FDFBD4]">
+              <h3 className="text-3xl font-bold mb-4 text-[#F0E5D8]">
                 Software Engineer Intern
               </h3>
 
-              <ul className="list-disc list-inside text-[#FDFBD4] text-lg space-y-2">
+              <ul className="list-disc list-inside text-[#F0E5D8] text-lg space-y-2">
                 <li>Designed VR training modules for the Meta Quest 3 for motor-skill coordination proficiency, as well as a radiation dosimetry simulation using the inverse square law to model dose exposure. </li>
                 <li>Automated Unity prefab generation through reusable C# editor scripts, eliminating repetitive manual setup and reducing scene creation time.</li>
               </ul>
@@ -88,11 +88,11 @@ const Experience = () => {
 
             {/* Content */}
             <div className="flex-1">
-              <h3 className="text-3xl font-bold mb-4 text-[#FDFBD4]">
+              <h3 className="text-3xl font-bold mb-4 text-[#F0E5D8]">
                 Hackathon Committee Lead
               </h3>
 
-              <ul className="list-disc list-inside text-[#FDFBD4] text-lg space-y-2">
+              <ul className="list-disc list-inside text-[#F0E5D8] text-lg space-y-2">
                 <li>Led a team of five to design and manage workshops for the annual WiCS hackathon with 200+ participants.</li>
                 <li>Coordinated with judges and sponsors to ensure smooth event logistics.</li>
                 <li>Focused on team collaboration, time management, and high-quality participant experience.</li>

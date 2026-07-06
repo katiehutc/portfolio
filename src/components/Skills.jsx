@@ -20,11 +20,11 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full bg-[#FDFBD4] text-[#182D09]'>
+    <div name='skills' className='w-full bg-[#F0E5D8] text-[#2E3047]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         {/* Header */}
         <div className='w-full flex justify-center items-center flex-col mb-7'>
-          <p className='text-4xl font-bold inline border-b-4 border-[#182D09] text-[#182D09] text-center'>Skills</p>
+          <p className='text-4xl font-bold inline border-b-4 border-[#2E3047] text-[#2E3047] text-center'>Skills</p>
         </div>
 
         {/* Skills grid */}
@@ -32,7 +32,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className='shadow-md shadow-[#242E16] hover:scale-110 duration-500 bg-[#182D09] flex flex-col items-center p-4 rounded-md'
+              className='shadow-md shadow-[#242E16] hover:scale-110 duration-500 bg-[#2E3047] flex flex-col items-center p-4 rounded-md'
             >
               {/* Icon */}
               <div className='mb-2 text-[#FDFBD4]'>{skill.icon}</div>

@@ -43,7 +43,7 @@ const Projects = () => {
   const [modalProject, setModalProject] = useState(null);
 
   return (
-    <div name='projects' className='w-full text-[#B39EB5] bg-[#FDFBD4] min-h-screen p-4'>
+    <div name='projects' className='w-full text-[#B39EB5] bg-[#F0E5D8] min-h-screen p-4'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full min-h-[80vh]'>
 
         {/* Section header */}
