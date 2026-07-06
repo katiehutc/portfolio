@@ -45,7 +45,7 @@ const Home = () => {
           <img
             src={me}  
             alt="profile"
-            className="float-animate rounded-full mx-auto w-24 h-24 object-cover transition-shadow duration-500"
+            className="float-animate rounded-full mx-auto w-1/3 md:w-1/2 transition-shadow duration-500"
           />
         </div>
       </div>
