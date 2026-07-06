@@ -35,9 +35,9 @@ const Skills = () => {
               className='shadow-md shadow-[#242E16] hover:scale-110 duration-500 bg-[#2E3047] flex flex-col items-center p-4 rounded-md'
             >
               {/* Icon */}
-              <div className='mb-2 text-[#FDFBD4]'>{skill.icon}</div>
+              <div className='mb-2 text-[#F0E5D8]'>{skill.icon}</div>
               {/* Skill name */}
-              <p className='my-2 text-[#FDFBD4] font-semibold'>{skill.name}</p>
+              <p className='my-2 text-[#F0E5D8] font-semibold'>{skill.name}</p>
             </div>
           ))}
         </div>
