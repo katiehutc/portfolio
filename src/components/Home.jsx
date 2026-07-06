@@ -8,7 +8,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         {/* Left side - Text content */}
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-[#182D09]">
+          <h2 className="text-4xl sm:text-7xl font-bold text-[#2E3047]">
             Katherine Hutchinson
           </h2>
 
@@ -45,7 +45,7 @@ const Home = () => {
           <img
             src={me}  
             alt="profile"
-            className="float-animate rounded-full mx-auto w-2/3 md:w-full transition-shadow duration-500"
+            className="float-animate rounded-full mx-auto w-24 h-24 object-cover transition-shadow duration-500"
           />
         </div>
       </div>
