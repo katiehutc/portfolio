@@ -20,7 +20,7 @@ const Home = () => {
           <p className="text-[#2E3047]">
             Find my resume here:{' '}
             <a
-              href="https://docs.google.com/document/d/1dNUVZv0Envm5hK3ZrJygQKiCm5BfUXiA13Euh2vQcAw/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1vB5RKgii6pA9pPPO1TjivrGiyoIOMvEE/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#2E3047] font-semibold hover:text-[#957DAD] underline transition"
