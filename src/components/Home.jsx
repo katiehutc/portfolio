@@ -14,7 +14,7 @@ const Home = () => {
 
           <p className="text-[#2E3047] text-lg leading-relaxed max-w-lg mx-auto py-4">
             Hi, I'm Katherine Hutchinson, a third-year <span className="font-semibold">Computer Science</span> student at the University of Virginia with a minor in <span className="font-semibold">Data Science</span>. 
-            I’m interested in software engineering, data engineering, extended reality technologies, and technology consulting.
+            I am pursuing the <span className="font-semibold">AI Focal Path</span>. I’m interested in software engineering, data engineering, extended reality technologies, and technology consulting.
           </p>
 
           <p className="text-[#2E3047]">
