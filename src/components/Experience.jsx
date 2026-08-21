@@ -49,8 +49,9 @@ const Experience = () => {
 
               <ul className="list-disc list-inside text-[#F0E5D8] text-lg space-y-2">
                 <li>Implemented backend features and bug fixes for an ASP.NET web application serving a state public education system with 90,000+ users. </li>
-                <li>Developed PostgreSQL database migrations with Entity Framework Core to support schema and data updates. </li>
-                <li>Created unit and integration tests for backend features and database changes.</li>
+                <li>Engineered PostgreSQL database migrations with Entity Framework Core to update schema and array data, improving data integrity for an ASP.NET application serving 200K+ users and millions of assessments annually. </li>
+                <li>Developed a REST API for a new feature, implementing validation and database operations, writing unit and integration tests, and manually testing API calls in Swagger.</li>
+                <li>Demoed tickets to clients, clearly explaining and demonstrating changes and alignments with requirements.</li>
               </ul>
             </div>
           </div>
