@@ -3,6 +3,7 @@ import React from 'react'
 import TelusIcon from '../assets/telus.jpeg';
 import SoftwareIcon from '../assets/srns.png';
 import HackathonIcon from '../assets/wics.jpg';
+import UVAIcon from '../assets/uva.png';
 
 
 import AOS from 'aos';
@@ -74,6 +75,28 @@ const Experience = () => {
               <ul className="list-disc list-inside text-[#F0E5D8] text-lg space-y-2">
                 <li>Designed VR training modules for the Meta Quest 3 for motor-skill coordination proficiency, as well as a radiation dosimetry simulation using the inverse square law to model dose exposure. </li>
                 <li>Automated Unity prefab generation through reusable C# editor scripts, eliminating repetitive manual setup and reducing scene creation time.</li>
+              </ul>
+            </div>
+          </div>
+          {/* Teaching Assistant */}
+          <div className="experience-card flex items-start gap-8 w-full max-w-5xl p-8">
+            {/* Logo */}
+            <img
+              src={UVAIcon}
+              alt="UVA Icon"
+              className="w-28 h-28 flex-shrink-0"
+            />
+
+            {/* Text */}
+            <div className="flex-1">
+              <h3 className="text-3xl font-bold mb-4 text-[#F0E5D8]">
+                Teaching Assistant
+              </h3>
+
+              <ul className="list-disc list-inside text-[#F0E5D8] text-lg space-y-2">
+                <li>Teaching Assistant for CS 3120: Discrete Math and Theory 2 </li>
+                <li>Aid students by hosting office hours, grading homework questions, and grading exams. </li>
+                <li>Consistently use theories and principles learned, such as finite automata, context-free languages, and time complexity.</li>
               </ul>
             </div>
           </div>
